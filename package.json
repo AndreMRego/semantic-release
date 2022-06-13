@@ -14,7 +14,9 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "postinstall": "husky install",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "release": "semantic-release",
+    "release:dry": "semantic-release --dry-run"
   },
   "lint-staged": {
     "src/**/*": [
@@ -31,6 +33,8 @@
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^12.1.1",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
     "@storybook/addon-essentials": "^6.5.9",
     "@storybook/builder-webpack5": "^6.5.9",
     "@storybook/manager-webpack5": "^6.5.9",
@@ -56,6 +60,7 @@
     "lint-staged": "^12.3.7",
     "plop": "^3.0.5",
     "prettier": "^2.6.1",
+    "semantic-release": "^19.0.3",
     "storybook-addon-next-router": "^3.1.1",
     "typescript": "^4.6.3",
     "webpack": "^5.70.0"
