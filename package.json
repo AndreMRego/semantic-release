@@ -16,7 +16,7 @@
     "postinstall": "husky install",
     "prepare": "husky install",
     "release": "semantic-release",
-    "release:dry": "semantic-release --dry-run"
+    "release:dry": "export $(cat .env | xargs) && semantic-release --dry-run"
   },
   "lint-staged": {
     "src/**/*": [
