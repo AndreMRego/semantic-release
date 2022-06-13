@@ -1,3 +1,11 @@
+## [1.0.2](https://github.com/AndreMRego/semantic-release/compare/v1.0.1...v1.0.2) (2022-06-13)
+
+
+### Bug Fixes
+
+* dry-run script ([88aefe5](https://github.com/AndreMRego/semantic-release/commit/88aefe53a608482a6257191c6a0fadbca41c1708))
+* fix button logic ([b4f9709](https://github.com/AndreMRego/semantic-release/commit/b4f9709c12b4bb57fe79a267346190c47b664426))
+
 ## [1.0.1](https://github.com/AndreMRego/semantic-release/compare/v1.0.0...v1.0.1) (2022-06-13)
 
 
